@@ -1,0 +1,294 @@
+body{
+	background-image: linear-gradient(to bottom, #0f3162, #0c294e, #0c203b, #0c1829, #070e18);
+	background-repeat: no-repeat;
+	grid template columns: repeat(3, 1fr);
+	
+}
+h1{
+	color: white;
+}
+.steamlogo{
+	width: 90px;
+	height: 90px;
+	position: relative;
+	left: 10px;
+}
+.ulmenu{
+	list-style: none;
+	padding: 0;
+	font-size: 30px;
+	position: relative;
+	left: 300px;
+	display: inline;
+
+}
+.limenu{
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	color: white;
+	background: #4C67BB;
+	border: 5px solid black;
+	position: relative;
+}
+.container {
+	position: absolute;
+	left: 70%;
+	bottom: 80%;
+	transform: translate(-50%,-50%);
+	padding: 10px;
+}
+
+input {
+	outline: none;
+	box-sizing: border-box;
+	height: 60px;
+	width: 0px;
+	padding: 0 20px;
+	color: #000;
+	border-radius: 50px;
+	font-size: 20px;
+	border: 1px solid #D50000;
+	transition: all .7s ease;
+}
+
+::placeholder {
+	color: grey;
+}
+
+.btn {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 80px;
+	height: 80px;
+	background: #D50000;
+	line-height: 80px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
+	transition: .5s;
+}
+
+.btn i {
+	font-size: 25px;
+	color: white;
+	line-height: 80px;
+	transition: all .7s ease;
+}
+
+.container:hover input {
+	width: 350px;
+}
+
+.container:hover i{
+	transform: rotate(-360deg);
+}
+
+.btn:hover{
+	background: #cc0000;
+}
+.slider {
+	width: 95%;
+	position: relative;
+	margin: auto;
+	right: 210px;
+	bottom: 115px;
+	margin: auto;
+	overflow: hidden;
+
+}
+.slider ul {
+	padding: 0;
+	display: flex;
+	width: 300%;
+	margin: 385px;
+	animation: cambio 20s infinite;
+	animation-direction: alternate;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+.slider img {
+	width: 100%;
+}
+@keyframes cambio {
+	0% { margin-left:15; }
+	15% { margin-left:15; }
+
+	25% { margin-left:-45%; }
+	45% {margin-left: -45%;}
+
+	50% { margin-left:-125%; }
+	70% {margin-left: -125%;}
+
+	75% { margin-left:-200%; }
+	70% {margin-left: -200%;}
+}
+.disponible{
+  font-family: 'Anton', sans-serif;
+  font-family: 'Blaka Hollow', cursive;
+  font-family: 'Bungee Spice', cursive;
+  position: relative;
+  bottom: -220px;
+  right:460px;
+  background-image: linear-gradient(to right top, #813d25, #8c3820, #97311b, #a22717, #ae1515);
+  font-size: 55px;
+  display: inline;
+  border: 7px double black;
+}
+.precio{
+	bottom: 450px;
+	left: 200px;
+	display: inline;
+	position: relative;
+	color: green;
+	font-size: 50px;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Blaka Hollow', cursive;
+	font-family: 'Bungee Spice', cursive;
+	background-color: darkred;
+	padding: 30px;
+}
+#main-container{
+	margin: 150px auto;
+	width: 600px;
+	right: 400px;
+	bottom: 400px;
+	position: relative;
+}
+
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: black;
+	border-bottom: solid 5px black;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #369681;
+	color: white;
+}
+.amigos{
+	position: relative;
+	display: inline;
+	bottom: 950px;
+	left: 105px;
+}
+.pedro{
+	position: relative;
+	display: inline;
+	height: 70px;
+	width: 60px;
+	bottom: 730px;
+	left: 25px;
+}
+.ataud{
+	width: 85px;
+	height: 60px;
+	bottom: 800px;
+	position: relative;
+	display: inline;
+	right: 65px;
+}
+.toledo{
+	width: 65px;
+	height: 60px;
+	bottom: 680px;
+	position: relative;
+	display: inline;
+	right: 130px;
+}
+.ollanta{
+	width: 65px;
+	height: 60px;
+	bottom: 620px;
+	position: relative;
+	display: inline;
+	right: 200px;
+}
+.recomendados{
+	position: relative;
+	display: inline;
+	color: white;
+	bottom: 950px;
+	font-size: 45px;
+	left: 445px;
+}
+.left{
+	position: relative;
+	display: inline;
+	height: 400px ;
+	width: 500px;
+	bottom: 900px;
+	left: 950px;
+	border-radius: 20px;
+}
+.leftfor{
+	position: relative;
+	display: inline;
+	bottom: 800px;
+	font-size: 40px;
+	left: 405px;
+	font-family: 'Zen Dots', cursive;
+
+	color: red;
+}
+header{
+	background-color: darkred;
+}
+.estreno{
+	position: relative;
+	font-size: 60px;
+	font-family: 'Anton', sans-serif;
+	font-family: 'Blaka Hollow', cursive;
+	font-family: 'Bungee Spice', cursive;
+	background-color: darkred;
+	bottom: 700px;
+	text-align: center;
+	border-radius: 50px;
+}
+.cyber{
+	position: relative;
+	bottom: 700px;
+	left: 225px;
+	display: inline;
+	
+}
+.valve{
+	position: relative;
+	left: 550px;
+	bottom: 500px;
+}
+.soporte{
+	position: relative;
+	left: 20px;
+	bottom: 420px;
+	font-size: 50px;
+	display: inline;
+
+}
+.nota{
+	position: relative;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	bottom: 400px;
+
+}
